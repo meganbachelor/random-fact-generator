@@ -3,31 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
     <title>AI Random Fact Generator</title>
   </head>
   <body>
-    <h1>Welcome to the AI Random Fact Generator!</h1>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="What topic would you like your fact on?"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div id="output"></div>
-      <br />
-      <div>Disclaimer: AI is not always accurate.</div>
-      <br />
-    </main>
+    <div class="container">
+      <h1>Welcome to the AI Random Fact Generator!</h1>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="What topic would you like your fact on...?"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="fact-output">
+          Women Were the First Coders!
+          <br />
+          If we trace the origins of computer programming, 75% of codebreakers
+          at Bletchley Park were women and engineering at NASA was predominantly
+          performed by women.
+        </div>
+      </main>
+    </div>
     <footer>
+      <div class="disclaimer">Disclaimer: AI is not always accurate.</div>
+      <br />
       This AI project was coded by
-      <a href="https://github.com/meganbachelor" target="_blank">Megan B</a> and
-      is
+      <a href="https://github.com/meganbachelor" target="_blank">Megan B</a>
+      and is
       <a
         href="https://github.com/meganbachelor/random-fact-generator"
         target="_blank"
