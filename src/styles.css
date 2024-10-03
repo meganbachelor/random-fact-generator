@@ -23,21 +23,24 @@ h1 {
   color: #606470;
 }
 
-form {
-  background-color: white;
+.form-container {
+  margin-bottom: 25px;
   border-radius: 15px;
-  padding: 30px;
+  background-color: white;
+}
+
+form {
+  padding: 30px 30px 15px 30px;
   display: flex;
-  margin-bottom: 30px;
 }
 
 .instructions {
-  padding: 16px;
+  padding: 10px;
   width: 80%;
   border: 0.5px solid #606470;
   border-radius: 50px;
   line-height: 20px;
-  font-size: 16px;
+  font-size: 15px;
   color: #323643;
 }
 
@@ -48,8 +51,8 @@ form {
   border: none;
   width: 150px;
   border-radius: 50px;
-  padding: 16px 30px;
-  font-size: 18px;
+  padding: 15px 30px;
+  font-size: 16px;
 }
 
 .submit-button:hover {
@@ -57,8 +60,14 @@ form {
   background: #05aff8;
 }
 
+.suggestion {
+  padding: 0px 30px 10px 30px;
+  font-style: italic;
+  font-size: 15px;
+}
+
 .fact-output {
-  padding: 20px;
+  padding: 10px 20px 20px 20px;
   font-weight: 400;
   font-size: 16px;
   text-align: left;
@@ -66,6 +75,10 @@ form {
   background-color: white;
   border-radius: 15px;
   border-left: 6px solid #93deff;
+}
+
+.hidden {
+  display: none;
 }
 
 .fact-output strong {

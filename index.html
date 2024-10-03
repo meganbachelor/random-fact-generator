@@ -18,19 +18,22 @@
     <div class="container">
       <h1>Welcome to the AI Random Fact Generator!</h1>
       <main>
-        <form id="fact-generator-form">
-          <input
-            type="text"
-            placeholder="What topic would you like your fact on...?"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="text-input"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="fact-output" id="fact-output"></div>
+        <div class="form-container">
+          <form id="fact-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic would you like your fact on...?"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="text-input"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="suggestion">i.e animals, countries, celebrities...</div>
+        </div>
+        <div class="fact-output hidden" id="fact-output"></div>
       </main>
     </div>
     <footer>
