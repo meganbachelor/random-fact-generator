@@ -41,7 +41,7 @@ form {
   color: #323643;
 }
 
-.submit-button {
+.submit-button {0
   margin-left: 10px;
   background: #93deff;
   color: white;
@@ -66,6 +66,10 @@ form {
   background-color: white;
   border-radius: 15px;
   border-left: 6px solid #93deff;
+}
+
+.fact-output strong {
+  color: #93deff;
 }
 
 .disclaimer {
