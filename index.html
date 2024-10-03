@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,7 +17,7 @@
     <div class="container">
       <h1>Welcome to the AI Random Fact Generator!</h1>
       <main>
-        <form>
+        <form id="fact-generator-form">
           <input
             type="text"
             placeholder="What topic would you like your fact on...?"
@@ -27,13 +28,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="fact-output">
-          Women Were the First Coders!
-          <br />
-          If we trace the origins of computer programming, 75% of codebreakers
-          at Bletchley Park were women and engineering at NASA was predominantly
-          performed by women.
-        </div>
+        <div class="fact-output" id="fact-output"></div>
       </main>
     </div>
     <footer>
