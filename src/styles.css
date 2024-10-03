@@ -52,6 +52,11 @@ form {
   font-size: 18px;
 }
 
+.submit-button:hover {
+  cursor: pointer;
+  background: #05aff8;
+}
+
 .fact-output {
   padding: 20px;
   font-weight: 400;
